@@ -46,15 +46,24 @@ What happens if we add more web server nodes? Do you think it is really dynamic?
 
 1. Take a screenshot of the stats page of HAProxy at  [http://192.168.42.42:1936](http://192.168.42.42:1936/). You should see your backend nodes.
 
-2. Give the URL of your repository URL in the lab report.  <https://github.com/rlabinot/Teaching-HEIGVD-AIT-2016-Labo-Docker>
+![](./img/0_1.PNG)
+
+2. Give the URL of your repository URL in the lab report. 
+   <https://github.com/rlabinot/Teaching-HEIGVD-AIT-2016-Labo-Docker>
 
 ### Task 1: Add a process supervisor to run several process
 
 ####Deliverables:
 
-1. Take a screenshot of the stats page of HAProxy at [http://192.168.42.42:1936](http://192.168.42.42:1936/). You should see your backend nodes. It should be really similar to the screenshot of the previous task.
+1. **Take a screenshot of the stats page of HAProxy at [http://192.168.42.42:1936](http://192.168.42.42:1936/). You should see your backend nodes. It should be really similar to the screenshot of the previous task.**
 
-2. Describe your difficulties for this task and your understanding of what is happening during this task. Explain in your own words why are we installing a process supervisor. Do not hesitate to do more research and to find more articles on that topic to illustrate the problem.
+![](./img/1_1.PNG)
+
+![](./img/1_1a.PNG)
+
+2. **Describe your difficulties for this task and your understanding of what is happening during this task. Explain in your own words why are we installing a process supervisor. Do not hesitate to do more research and to find more articles on that topic to illustrate the problem.**
+
+Nous installons un processus superviseur afin que les containers ne se tuent pas automatiquement dès que leur processus s'arrête. Comme l'indique l'article des auteurs du "s6-overlay", la devise de docker ne devrait pas être "un processus par container" mais plutôt "une chose par container". Le but du superviseur est de pouvoir relancer des services sans pour autant tuer le container.
 
 ### Task 2: Add a tool to manage membership in the web server cluster
 
