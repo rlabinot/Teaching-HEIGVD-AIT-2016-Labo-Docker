@@ -10,7 +10,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -22,7 +22,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -34,7 +34,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -46,7 +46,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -58,7 +58,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -70,7 +70,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -82,7 +82,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -94,7 +94,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -106,7 +106,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -118,7 +118,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -130,7 +130,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -142,7 +142,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -154,7 +154,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -166,7 +166,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -178,7 +178,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -190,7 +190,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -202,7 +202,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -214,7 +214,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -226,7 +226,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -238,7 +238,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -250,7 +250,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
@@ -262,139 +262,7 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'badb6fffbad9'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: true)
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: 'badb6fffbad9'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: true)
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: 'badb6fffbad9'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: true)
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: 'badb6fffbad9'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: true)
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: 'badb6fffbad9'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: true)
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: 'badb6fffbad9'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: true)
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: 'badb6fffbad9'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: true)
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: 'badb6fffbad9'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: true)
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: 'badb6fffbad9'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: true)
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: 'badb6fffbad9'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: true)
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: 'badb6fffbad9'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: true)
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: 'badb6fffbad9'
+         Node name: '2292f5c27026'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
