@@ -79,7 +79,7 @@ Example:
 ​    |-- task 3
 ​    |-- ...
 
-
+![](./img/2_1.PNG)
 
 2. Give the answer to the question about the existing problem with the current solution.
 
