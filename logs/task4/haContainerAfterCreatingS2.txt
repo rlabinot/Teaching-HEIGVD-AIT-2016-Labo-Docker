@@ -1,0 +1,3 @@
+root@194a69839f5f:/# cat /tmp/haproxy.cfg
+Container 0ed9921e1dfa has joined the Serf cluster with the following IP address: 172.18.0.4
+root@194a69839f5f:/# 

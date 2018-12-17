@@ -1,84 +1,8 @@
+root@9eb6802da589:/# cat /var/log/serf.log
 Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
+Member join event received from: 9eb6802da589 with role balancer
 Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
+Member join event received from: 385090aecac7 with role backend
 Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
-Member join script triggered
-Member join event received from: 2292f5c27026 with role balancer
+Member join event received from: f67d2f5aa145 with role backend
+root@9eb6802da589:/#

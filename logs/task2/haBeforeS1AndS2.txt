@@ -6,26 +6,23 @@
 [cont-init.d] done.
 [services.d] starting services
 [services.d] done.
-/opt/bin/serf agent --join ha --tag role=backend
+/opt/bin/serf agent --join ha --replay --event-handler member-join=/serf-handlers/member-join.sh --event-handler member-leave,member-failed=/serf-handlers/member-leave.sh --tag role=balancer
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: 'f67d2f5aa145'
+         Node name: '067b654f1d33'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
           Snapshot: false
            Profile: lan
-==> Joining cluster...(replay: false)
+==> Joining cluster...(replay: true)
     Join completed. Synced with 1 initial agents
 
 ==> Log data will now stream in as it occurs:
 
-    2018/12/17 19:35:54 [INFO] agent: Serf agent starting
-    2018/12/17 19:35:54 [INFO] serf: EventMemberJoin: f67d2f5aa145 172.18.0.4
-    2018/12/17 19:35:54 [INFO] agent: joining: [ha] replay: false
-    2018/12/17 19:35:54 [INFO] serf: EventMemberJoin: 9eb6802da589 172.18.0.2
-    2018/12/17 19:35:54 [INFO] serf: EventMemberJoin: 385090aecac7 172.18.0.3
-    2018/12/17 19:35:54 [INFO] agent: joined: 1 nodes
-    2018/12/17 19:35:55 [INFO] agent: Received event: member-join
-Application started
+    2018/12/17 10:43:17 [INFO] agent: Serf agent starting
+    2018/12/17 10:43:17 [INFO] serf: EventMemberJoin: 067b654f1d33 172.18.0.2
+    2018/12/17 10:43:17 [INFO] agent: joining: [ha] replay: true
+    2018/12/17 10:43:17 [INFO] agent: joined: 1 nodes
+    2018/12/17 10:43:18 [INFO] agent: Received event: member-join

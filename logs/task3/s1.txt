@@ -10,23 +10,23 @@
 ==> Starting Serf agent...
 ==> Starting Serf agent RPC...
 ==> Serf agent running!
-         Node name: '43434711958d'
+         Node name: '385090aecac7'
          Bind addr: '0.0.0.0:7946'
           RPC addr: '127.0.0.1:7373'
          Encrypted: false
           Snapshot: false
            Profile: lan
 ==> Joining cluster...(replay: false)
+    Join completed. Synced with 1 initial agents
+
+==> Log data will now stream in as it occurs:
+
+    2018/12/17 19:35:49 [INFO] agent: Serf agent starting
+    2018/12/17 19:35:49 [INFO] serf: EventMemberJoin: 385090aecac7 172.18.0.3
+    2018/12/17 19:35:49 [INFO] agent: joining: [ha] replay: false
+    2018/12/17 19:35:49 [INFO] serf: EventMemberJoin: 9eb6802da589 172.18.0.2
+    2018/12/17 19:35:49 [INFO] agent: joined: 1 nodes
+    2018/12/17 19:35:50 [INFO] agent: Received event: member-join
 Application started
-==> dial tcp 69.172.201.153:7946: i/o timeout
-/opt/bin/serf agent --join ha --tag role=backend
-==> Starting Serf agent...
-==> Starting Serf agent RPC...
-==> Serf agent running!
-         Node name: '43434711958d'
-         Bind addr: '0.0.0.0:7946'
-          RPC addr: '127.0.0.1:7373'
-         Encrypted: false
-          Snapshot: false
-           Profile: lan
-==> Joining cluster...(replay: false)
+    2018/12/17 19:35:54 [INFO] serf: EventMemberJoin: f67d2f5aa145 172.18.0.4
+    2018/12/17 19:35:55 [INFO] agent: Received event: member-join
