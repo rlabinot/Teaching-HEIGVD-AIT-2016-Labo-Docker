@@ -4,7 +4,7 @@ FROM haproxy:1.5
 MAINTAINER Labinot Rashiti <labinot.rashiti@heig-vd.ch>
 
 # Install some tools
-# TODO: [HB] Update to install required tool to install NodeJS
+# Update to install required tool to install NodeJS
 RUN apt-get update && apt-get -y install wget curl vim iputils-ping rsyslog xz-utils
 
 # Download and install S6 overlay
@@ -53,7 +53,8 @@ COPY config/haproxy.cfg.hb /config
 # Clean up
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-# TODO: [CFG] Create the nodes folder
+# Create the nodes folder
+RUN mkdir /nodes
 
 # Expose the ports for Serf
 EXPOSE 7946 7373

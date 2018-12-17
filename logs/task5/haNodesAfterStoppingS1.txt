@@ -1,0 +1,4 @@
+root@14a41d1d3b68:/# ls -l nodes/
+total 4
+-rw-r--r-- 1 root root 24 Dec 17 20:39 2d23802baac1
+root@14a41d1d3b68:/#
