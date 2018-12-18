@@ -40,11 +40,11 @@ Une autre approche serait d'avoir un processus (deamon) qui tourne en permanance
 
 6. **[M6] In our current solution, although the load balancer configuration is changing dynamically, it doesn't follow dynamically the configuration of our distributed system when web servers are added or removed. If we take a closer look at the run.sh script, we see two calls to sed which will replace two lines in the haproxy.cfg configuration file just before we start haproxy. You clearly see that the configuration file has two lines and the script will replace these two lines.**
 
-What happens if we add more web server nodes? Do you think it is really dynamic? It's far away from being a dynamic configuration. Can you propose a solution to solve this?
+**What happens if we add more web server nodes? Do you think it is really dynamic? It's far away from being a dynamic configuration. Can you propose a solution to solve this?**
 
 ####Deliverables:
 
-1. Take a screenshot of the stats page of HAProxy at  [http://192.168.42.42:1936](http://192.168.42.42:1936/). You should see your backend nodes.
+1. **Take a screenshot of the stats page of HAProxy at  [http://192.168.42.42:1936](http://192.168.42.42:1936/). You should see your backend nodes.**
 
 ![](./img/0_1.PNG)
 
@@ -69,78 +69,90 @@ Nous installons un processus superviseur afin que les containers ne se tuent pas
 
 ####Deliverables:
 
-1. Provide the docker log output for each of the containers: ha, s1 and s2. You need to create a folder logs in your repository to store the files separately from the lab report. For each lab task create a folder and name it using the task number. No need to create a folder when there are no logs.
+1. **Provide the docker log output for each of the containers: ha, s1 and s2. You need to create a folder logs in your repository to store the files separately from the lab report. For each lab task create a folder and name it using the task number. No need to create a folder when there are no logs.**
 
-Example:
+**Example:**
 
-|-- root folder
-  |-- logs
-​    |-- task 1
-​    |-- task 3
-​    |-- ...
+**|-- root folder**
+  **|-- logs**
+**​    |-- task 1**
+**​    |-- task 3**
+**​    |-- ...**
 
-![](./img/2_1.PNG)
+Les logs de la partie 2 se trouvent dans : [Task2 logs](logs/task2) 
 
-2. Give the answer to the question about the existing problem with the current solution.
+2. **Give the answer to the question about the existing problem with the current solution.**
 
-3. Give an explanation on how Serf is working. Read the official website to get more details about the GOSSIP protocol used in Serf. Try to find other solutions that can be used to solve similar situations where we need some auto-discovery mechanism.
+3. **Give an explanation on how Serf is working. Read the official website to get more details about the GOSSIP protocol used in Serf. Try to find other solutions that can be used to solve similar situations where we need some auto-discovery mechanism.**
 
 ### Task 3: React to membership changes
 
 ####Deliverables:
 
-1. Provide the docker log output for each of the containers: ha, s1 and s2. Put your logs in the logs directory you created in the previous task.
+1. **Provide the docker log output for each of the containers: ha, s1 and s2. Put your logs in the logs directory you created in the previous task.**
 
-2. Provide the logs from the ha container gathered directly from the /var/log/serf.log file present in the container. Put the logs in the logs directory in your repo.
+2. **Provide the logs from the ha container gathered directly from the /var/log/serf.log file present in the container. Put the logs in the logs directory in your repo.**
 
 ### Task 4: Use a template engine to easily generate configuration files
 
 ####Deliverables:
 
-1. You probably noticed when we added xz-utils, we have to rebuild the whole image which took some time. What can we do to mitigate that? Take a look at the Docker documentation on [image layers](https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#images-and-layers). Tell us about the pros and cons to merge as much as possible of the command. In other words, compare:
+1. **You probably noticed when we added xz-utils, we have to rebuild the whole image which took some time. What can we do to mitigate that? Take a look at the Docker documentation on [image layers](https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/#images-and-layers). Tell us about the pros and cons to merge as much as possible of the command. In other words, compare:**
 
-   RUN command 1
-   RUN command 2
-   RUN command 3
-   vs.
-   RUN command 1 && command 2 && command 3
+   **RUN command 1**
+   **RUN command 2**
+   **RUN command 3**
+   **vs.**
+   **RUN command 1 && command 2 && command 3**
 
 
 
-There are also some articles about techniques to reduce the image size. Try to find them. They are talking about squashing or flattening images.
+**There are also some articles about techniques to reduce the image size. Try to find them. They are talking about squashing or flattening images.**
 
-2. Propose a different approach to architecture our images to be able to reuse as much as possible what we have done. Your proposition should also try to avoid as much as possible repetitions between your images.
+2. **Propose a different approach to architecture our images to be able to reuse as much as possible what we have done. Your proposition should also try to avoid as much as possible repetitions between your images.**
 
-3. Provide the /tmp/haproxy.cfg file generated in the ha container after each step. Place the output into the logs folder like you already did for the Docker logs in the previous tasks. Three files are expected.
+3. **Provide the /tmp/haproxy.cfg file generated in the ha container after each step. Place the output into the logs folder like you already did for the Docker logs in the previous tasks. Three files are expected.**
 
-In addition, provide a log file containing the output of the docker ps console and another file (per container) with docker inspect <container>. Four files are expected.
+**In addition, provide a log file containing the output of the docker ps console and another file (per container) with docker inspect <container>. Four files are expected.**
 
-4. Based on the three output files you have collected, what can you say about the way we generate it? What is the problem if any?
+4. **Based on the three output files you have collected, what can you say about the way we generate it? What is the problem if any?**
 
 ### Task 5: Generate a new load balancer configuration when membership changes
 
 ####Deliverables:
 
-1. Provide the file /usr/local/etc/haproxy/haproxy.cfg generated in the ha container after each step. Three files are expected.
+1. **Provide the file /usr/local/etc/haproxy/haproxy.cfg generated in the ha container after each step. Three files are expected.**
 
-   In addition, provide a log file containing the output of the docker ps console and another file (per container) with docker inspect <container>. Four files are expected.
+   **In addition, provide a log file containing the output of the docker ps console and another file (per container) with docker inspect <container>. Four files are expected.**
 
-2. Provide the list of files from the /nodes folder inside the ha container. One file expected with the command output.
+2. **Provide the list of files from the /nodes folder inside the ha container. One file expected with the command output.**
 
-3. Provide the configuration file after you stopped one container and the list of nodes present in the /nodes folder. One file expected with the command output. Two files are expected.
+3. **Provide the configuration file after you stopped one container and the list of nodes present in the /nodes folder. One file expected with the command output. Two files are expected.**
 
-   In addition, provide a log file containing the output of the docker ps console. One file expected.
+   **In addition, provide a log file containing the output of the docker ps console. One file expected.**
 
-4. (Optional:) Propose a different approach to manage the list of backend nodes. You do not need to implement it. You can also propose your own tools or the ones you discovered online. In that case, do not forget to cite your references.
+4. **(Optional:) Propose a different approach to manage the list of backend nodes. You do not need to implement it. You can also propose your own tools or the ones you discovered online. In that case, do not forget to cite your references.**
 
 ### Task 6: Make the load balancer automatically reload the new configuration
 
 ####Deliverables:
 
-1. Take a screenshots of the HAProxy stat page showing more than 2 web applications running. Additional screenshots are welcome to see a sequence of experimentations like shutting down a node and starting more nodes.
+1. **Take a screenshots of the HAProxy stat page showing more than 2 web applications running. Additional screenshots are welcome to see a sequence of experimentations like shutting down a node and starting more nodes.**
 
-2. Also provide the output of docker ps in a log file. At least one file is expected. You can provide one output per step of your experimentation according to your screenshots.
+   **Also provide the output of docker ps in a log file. At least one file is expected. You can provide one output per step of your experimentation according to your screenshots.**
 
-3. Give your own feelings about the final solution. Propose improvements or ways to do the things differently. If any, provide references to your readings for the improvements.
+Tout d'abord nous créeons un container ha, puis quatre containers webapp (respectivement s1,s2,s3,s4). Voici ce que nous affiche le rapport de ha :
 
-4. (Optional:) Present a live demo where you add and remove a backend container.
+![](./img/6_1.PNG)
+
+On voit bien que les quatres containers ont été ajouté dynamiquement. Nous allons maintenant supprimer s3 afin de voir si le changement est effectué :
+
+![](./img/6_2_AfterStoppingS3.PNG)
+
+Après avoir fait un "docker stop s3", on voit bien que ha l'a enlevé de la liste des nodes. Cela indique donc que nos scripts ayant pour but de rendre la configuration dynamique fonctionnent.
+
+Pour plus d'informations, les logs se situent dans `/vagrant/logs/task6`.
+
+2. **Give your own feelings about the final solution. Propose improvements or ways to do the things differently. If any, provide references to your readings for the improvements.**
+
+3. **(Optional:) Present a live demo where you add and remove a backend container.**
